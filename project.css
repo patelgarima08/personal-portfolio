@@ -1,0 +1,21 @@
+h1{
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(84, 6, 6);
+    margin-left: 600px;
+    
+
+}
+h2{
+    font: 1.6rem sans-serif;
+    color: rgb(20, 18, 18);
+    font-family:cursive;
+}
+body{
+    background-color: cadetblue;
+}
+h1:hover{
+    color: rgb(184, 75, 75);
+    cursor:pointer;
+}

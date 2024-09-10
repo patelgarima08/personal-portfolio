@@ -1,0 +1,110 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <link rel="stylesheet" href="first.css">
+
+      </head>
+      
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Portfolio
+                <b>.</b>
+          </div>
+          <ul class="navItems">
+            
+            <li><a href="image.html">About</a></li>
+            <li><a href="skills.html">Skills</a>
+            </li>
+            <li><a href="prject.html">Projects</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="contact.html">contact us</a></li>
+            </ul>z
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext">Garima</span></h1>
+                <p>a front End-web devloper having an experience of building web applications with javascript/React and some other cool libraries and frameworks.</p>
+                <div class="btns">
+                    <button id="button">Download CV</button>
+                    <button>Hire me</button>
+                </div>
+                
+            </div>
+            <div class="cols cols0">
+                <div class="imgbox">
+                    <img src="img.jpeg"  id="splash">
+
+                </div>
+            </div>
+            <div class="cols cols0">
+
+            </div>
+
+        </div>
+        </div>
+      
+     <div class="second">
+        <img src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg">
+        </div>        
+    
+        
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typingEffect = new Typed(".multitext", {
+        strings: [ "garima", "coder","designer"],
+        loop: true,
+        backSpeed: 50,
+        typeSpeed: 100,
+    });
+
+
+    document.getElementById("button").addEventListener("click", function() {
+    // Path to your CV file
+    const fileUrl = 'https://drive.google.com/file/d/1FMw6rbcDE5dG3bY2ySFCIRop9oVpRDl8/view?usp=sharing'; // Replace this with the actual file path
+    
+
+    // Create an anchor element
+    const anchor = document.createElement('a');
+    anchor.href = fileUrl;
+    anchor.download = 'garima resume.pdf'; // Downloaded file name
+
+    // Append the anchor to the body
+    document.body.appendChild(anchor);
+
+    // Trigger click event on the anchor
+    anchor.click();
+
+    // Remove the anchor after download
+    document.body.removeChild(anchor);
+
+
+});
+
+
+</script>
+
+   
+</body>
+</html> 
+ 
+
+
+
+ 
+ 
